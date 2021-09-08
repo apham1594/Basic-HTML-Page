@@ -4,38 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Forms</title>
+    <title> Forms </title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a class="nav" href="Contact.html"> Contact me! </a>
-            <br>
-            <a class="nav" href="index.html"> About Me </a>
-        </nav>
-        <br>
-    </header>
-
     <main>
+        <form id="Information" action="https://apham1594.github.io/HTML_Forms/" method="GET"></form>
+    
+    <h1>Your Basic Information</h1> 
+    
+<label for="name">Name</label>
+<br>
+<input type="name" id="name">
+<br><br> 
+<label for="email">Email</label>
+<br>
+<input type="email" id="email">
+<br>
+<labeL for="password">Password</label>
+<br><br>
+<input type="password" id="password">
+<br><br>
+<label for="radio">Age</label>
+<br>
+<input type="radio" id="radio">Under 16r</input>
+<br>
+<input type="radio" id="radio">16 or older</input>
+<br><br>
+<h2>Your Profile</h2>
+<label for="text">Biography</label>
+<br>
+<input type="text" id="text">
+<br>
+<br>
+<label for="select courses">Select Courses:</label>
+    <select>
+  <option value="Computer Science Engineering">Computer Science Engineering</option>
+  <option value="Nursing">Nursing</option>
+  <option value="Psychology">Psychology</option>
+  <option value="Journalism">Journalism</option>
+  </select>
+<br>
+<br>
+<label for="checkbox">Interests</label>
+<br>
+<input type="checkbox">Engineering
+<br>
+<input type="checkbox">Business
+<br>
+<input type="checkbox">Law
+<br>
+<br>
+<input type="submit">
+</main>
 
-        <form id="formation" action="#" method=""></form>
-        <h2> Join my Email list </h2>
-        <br>
-        <label form="name"> Enter your Name </label>
-        <input type="text" id="name" placeholder="Name" required>
-        <br>
-
-        <label type="email">Enter your email</label>
-        <input type="text" id="email" placeholder="email" required
-        <br>
-        <br>
-        <label form="password"> Please Create a Password</label>
-        <input type="text" id="password" placeholder="password" required>
-        <br>
-        <label type="telephone"> telephone </label>
-        <input type="text" id="telephone" placeholder="Phone #" required>
-
-    </main>
+    
 </body>
 </html>
