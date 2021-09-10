@@ -12,32 +12,37 @@
     <main>
         <form id="Information" action="https://apham1594.github.io/HTML_Forms/" method="GET"></form>
     
-    <h1>Your Basic Information</h1> 
+    <h1 id="Basic Information"> Basic Information</h1> 
+ <form action="/action_page.php">
     
 <label for="name">Name</label>
 <br>
-<input type="name" id="name">
+<input type="text" id="name">
 <br><br> 
 <label for="email">Email</label>
 <br>
-<input type="email" id="email">
+<input type="text" id="email">
 <br>
-<labeL for="password">Password</label>
-<br><br>
+<label for="password">Password</label>
+<br>
 <input type="password" id="password">
-<br><br>
+<br>
+
 <label for="radio">Age</label>
 <br>
-<input type="radio" id="radio">Under 16r</input>
+<input type="radio" id="radio">Under 16</input>
 <br>
 <input type="radio" id="radio">16 or older</input>
 <br><br>
+
 <h2>Your Profile</h2>
-<label for="text">Biography</label>
+<label for="Biography">Biography</label>
 <br>
-<input type="text" id="text">
-<br>
-<br>
+
+    <textarea name="message" rows="10" cols="30">This is where you type whatever you want. </textarea> </form>
+
+<br><br>
+
 <label for="select courses">Select Courses:</label>
     <select>
   <option value="Computer Science Engineering">Computer Science Engineering</option>
@@ -45,8 +50,10 @@
   <option value="Psychology">Psychology</option>
   <option value="Journalism">Journalism</option>
   </select>
+  
 <br>
 <br>
+<form>
 <label for="checkbox">Interests</label>
 <br>
 <input type="checkbox">Engineering
@@ -54,10 +61,16 @@
 <input type="checkbox">Business
 <br>
 <input type="checkbox">Law
+
 <br>
 <br>
-<input type="submit">
+
+
+
+<input type="submit" value="Submit">
+</form>
 </main>
+
 
     
 </body>
